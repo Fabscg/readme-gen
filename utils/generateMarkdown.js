@@ -1,21 +1,21 @@
 
 
-// TODO: Create a function to generate markdown for README
+// Created a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   
   # ${data.title}
 
-  ## Table of Contents
+  # Table of Contents
   _________________________________
 
-  - # [Description](#Description)
-  - # [Installations](#Installations)
-  - # [Usage](#Usage)
-  - # [Credits](#Credits)
-  - # [License](#License)
-  - # [Test](#Test)
-  - # [questions](#Questions)
+  - ## [Description](#Description)
+  - ## [Installations](#Installations)
+  - ## [Usage](#Usage)
+  - ## [Credits](#Credits)
+  - ## [License](#License)
+  - ## [Test](#Test)
+  - ## [questions](#Questions)
  
 
   ## Description
@@ -51,5 +51,6 @@ function generateMarkdown(data) {
 `;
 }
 
+//generateMardown needed to be export from the index.js to get all the data information from there using exports
 
 module.exports = {generateMarkdown}

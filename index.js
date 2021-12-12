@@ -1,8 +1,12 @@
+// require 'inquirer' dependency to capture user input in the node.js command
+
 const inquirer = require('inquirer')
+
+//required fyle system to create, add and this case create a READme file
 const fs = require('fs')
 const markdown = require('./utils/generateMarkdown')
 
-
+//creating the prompts questions for theuser
 
 inquirer
     .prompt([
