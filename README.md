@@ -48,3 +48,7 @@
 
   ## [Email](fabiscg79@gmail.com)
 
+  ## [Github Link](git@github.com:Fabskickass/readme-gen.git)
+
+  ## [Github URL](https://fabskickass.github.io/readme-gen/)
+
