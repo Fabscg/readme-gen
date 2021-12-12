@@ -25,11 +25,6 @@ inquirer
             }
         },
         {
-            type: 'header',
-            name: 'tableOfcontents',
-            message: 'Table of Contents(Optional)'
-        },
-        {
             type: 'input',
             name: 'installation',
             message: 'What dependencies were installed in this project?(Required)',
@@ -57,7 +52,7 @@ inquirer
             type: 'checkbox',
             name: 'license',
             message: 'What license protect this project?(Check the one that apply)',
-            choices: ['MIT', 'GNU', 'Mozilla Public License', 'Apache', 'Boost Soaftware', 'none']
+            choices: ['Boost_1.0', 'BSD_3-', 'BSD_2-', 'Apache_2.0', 'none']
         },
         {
             type: 'input',
@@ -77,7 +72,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'link',
+            name: 'githubLink',
             message: 'What is your Github username?(Required)'
         },
         {
@@ -87,9 +82,9 @@ inquirer
         }
     ])
     .then((data) => {
-    const readmeData = markdown.generateMarkdown(data)
-    fs.writeFile('generateMarkdown', readmeData, function (err) {
-        if (err) throw err;
+        const allData = markdown.generateMarkdown(data)
+    fs.writeFile('README.md', allData, err => {
+        err ? console.log(err) :
         console.log('Data Saved!');
     })
 });
