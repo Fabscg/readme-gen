@@ -9,29 +9,35 @@ function generateMarkdown(data) {
   # Table of Contents
   _________________________________
 
-  - ## [Description](#Description)
-  - ## [Installations](#Installations)
-  - ## [Usage](#Usage)
-  - ## [Credits](#Credits)
-  - ## [License](#License)
-  - ## [Test](#Test)
-  - ## [questions](#Questions)
+[Description](#Description)
+
+[Installations](#Installations)
+
+[Usage](#Usage)
+
+[Credits](#Credits)
+
+[License](#License)
+
+[Test](#Test)
+
+[Questions](#Questions)
  
 
-  ## Description
+  # Description
    ${data.description}
 
-  ## Installation
+  # Installation
   ${data.installation}
 
-  ## Usage
+  # Usage
   ${data.usage} 
   ![alt text](assets/images/screenshot.png)
 
   # Credits
   ${data.credits}
 
-  ## License
+  # License
   [![License](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})
   
 
@@ -53,4 +59,4 @@ function generateMarkdown(data) {
 
 //generateMardown needed to be export from the index.js to get all the data information from there using exports
 
-module.exports = {generateMarkdown}
+module.exports = { generateMarkdown }

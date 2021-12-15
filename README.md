@@ -1,37 +1,39 @@
 
   
-  # Title Project
+  # Readme Generator
 
   # Table of Contents
   _________________________________
 
-  - ## [Description](#Description)
-  - ## [Installations](#Installations)
-  - ## [Usage](#Usage)
-  - ## [Credits](#Credits)
-  - ## [License](#License)
-  - ## [Test](#Test)
-  - ## [questions](#Questions)
+[Description](#Description)
+
+[Installations](#Installations)
+
+[Usage](#Usage)
+
+[Credits](#Credits)
+
+[License](#License)
+
+[Test](#Test)
+
+[Questions](#Questions)
  
 
-  ## Description
-   Yo ucan alwasy give some information in how the project works and it is use.
+  # Description
+   Creates a readme.md file
 
-  ## Installation
-  Inquire dependency
+  # Installation
+  npm i inquirer
 
-  ## Usage
-  You use node to call the folder and get the application to work by answering all the prompts 
-   ![Terminal work](./images/terminal-read.me.png)
-
-  ![Final work](./images/READme-Generator.png)
-  
+  # Usage
+  run node index.js to use 
+  ![alt text](assets/images/screenshot.png)
 
   # Credits
-
   undefined
 
-  ## License
+  # License
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache_2.0)
   
 
@@ -41,14 +43,10 @@
   ## If you have any further questions about this project, you can always contact me here:
 
   ## Name
-  Fabiola Castaneda Gamboa
+  Fabiola
 
   ## [Github](https://github.com/Fabskickass)
   
 
   ## [Email](fabiscg79@gmail.com)
-
-  ## [Github Link](git@github.com:Fabskickass/readme-gen.git)
-
-  ## [Github URL](https://fabskickass.github.io/readme-gen/)
 
