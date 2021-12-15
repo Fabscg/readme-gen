@@ -7,7 +7,7 @@
 
 [Description](#Description)
 
-[Installations](#Installations)
+[Installations](#Installation)
 
 [Usage](#Usage)
 
@@ -28,7 +28,6 @@
 
   # Usage
   run node index.js to use 
-  ![alt text](assets/images/screenshot.png)
 
   # Credits
   undefined
