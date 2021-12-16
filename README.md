@@ -30,7 +30,7 @@
   run node index.js to use 
 
   # Credits
-  undefined
+  none
 
    # test
    none
