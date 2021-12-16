@@ -49,7 +49,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'Credits',
+            name: 'credits',
             message: 'List your collaborators if any'
         },
         {
